@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.next/
+coverage/
+
+# Env files (except for .env.example)
+.env
+.env.*
+!.env.example
+
+# Prisma generated client
+apps/api/src/generated/
+
+# AI agents tooling
+.claude/
+.windsurf/
+.agents/
+skills-lock.json
+
+# Logs and OS
+*.log
+.DS_Store
